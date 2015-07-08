@@ -14,7 +14,7 @@ let viewHeight:CGFloat = 100.0
 let viewWidth:CGFloat = 20.0
 let bigscaleHeight:CGFloat = 50.0
 let scalewidth:CGFloat = 3.0
-let bottomScaleHeight:CGFloat = 7.0
+let bottomScaleHeight:CGFloat = 0.0
 let bottomScaleMargin:CGFloat = 5.0
 let labelHeight:CGFloat = 10.0
 let labelMargin:CGFloat = 5.0
@@ -40,7 +40,7 @@ class ViewController: UIViewController, iCarouselDataSource, iCarouselDelegate
         super.viewDidLoad()
         carousel.delegate = self
         carousel.dataSource = self
-        carousel.type = iCarouselType.Cylinder
+        carousel.type = iCarouselType.Linear
         carousel.pagingEnabled = false
         carousel.scrollSpeed = 0.5
         
@@ -64,7 +64,7 @@ class ViewController: UIViewController, iCarouselDataSource, iCarouselDelegate
         
             newView = UIView()
             newView.frame = CGRectMake(0, 0, viewWidth, viewHeight)
-            newView.backgroundColor = UIColor.whiteColor()
+            newView.backgroundColor = UIColor.clearColor()
             
             var subview:UIView = UIView()
             if index % 5 == 0 {
@@ -86,10 +86,10 @@ class ViewController: UIViewController, iCarouselDataSource, iCarouselDelegate
             subview.backgroundColor = UIColor(red: 88.0/255.0, green: 194.0/255.0, blue: 56.0/255.0, alpha: 1.0)
             newView .addSubview(subview)
             
-            var horizontalView:UIView = UIView(frame: CGRectMake(0, viewHeight - bottomScaleHeight, viewWidth, bottomScaleHeight))
-            horizontalView.backgroundColor = UIColor(red: 88.0/255.0, green: 194.0/255.0, blue: 56.0/255.0, alpha: 1.0)
-            
-            newView .addSubview(horizontalView)
+//            var horizontalView:UIView = UIView(frame: CGRectMake(0, viewHeight - bottomScaleHeight, viewWidth, bottomScaleHeight))
+//            horizontalView.backgroundColor = UIColor(red: 88.0/255.0, green: 194.0/255.0, blue: 56.0/255.0, alpha: 1.0)
+        
+            //newView .addSubview(horizontalView)
         
         
         return newView
@@ -111,6 +111,10 @@ class ViewController: UIViewController, iCarouselDataSource, iCarouselDelegate
         {
             return 0
         }
+//        else if (option == iCarouselOption.VisibleItems)
+//        {
+//            return 30
+//        }
         return value
     }
     
