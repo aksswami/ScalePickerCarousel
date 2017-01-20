@@ -9,7 +9,6 @@
 import UIKit
 import FontAwesome_swift
 
-
 let viewHeight:CGFloat = 100.0
 let viewWidth:CGFloat = 20.0
 let bigscaleHeight:CGFloat = 50.0
@@ -40,51 +39,51 @@ class ViewController: UIViewController, iCarouselDataSource, iCarouselDelegate
         super.viewDidLoad()
         carousel.delegate = self
         carousel.dataSource = self
-        carousel.type = iCarouselType.Linear
-        carousel.pagingEnabled = false
+        carousel.type = iCarouselType.linear
+        carousel.isPagingEnabled = false
         carousel.scrollSpeed = 0.5
         
-        self.traingleLabel.font = UIFont.fontAwesomeOfSize(50)
-        self.traingleLabel.text = String.fontAwesomeIconWithName(FontAwesome.CaretUp)
-        self.traingleLabel.textColor = UIColor.grayColor()
+        self.traingleLabel.font = UIFont.fontAwesome(ofSize: 50)
+        self.traingleLabel.text = String.fontAwesomeIcon(name: FontAwesome.caretUp)
+        self.traingleLabel.textColor = UIColor.gray
         
         
     }
     
-    func numberOfItemsInCarousel(carousel: iCarousel!) -> Int
+    func numberOfItems(in carousel: iCarousel!) -> Int
     {
         return items.count
     }
     
-    func carousel(carousel: iCarousel!, viewForItemAtIndex index: Int, reusingView view: UIView!) -> UIView!
+    func carousel(_ carousel: iCarousel!, viewForItemAt index: Int, reusing view: UIView!) -> UIView!
     {
         var label: UILabel! = nil
         var newView = view
         //create new view if no view is available for recycling
         
             newView = UIView()
-            newView.frame = CGRectMake(0, 0, viewWidth, viewHeight)
-            newView.backgroundColor = UIColor.clearColor()
+            newView?.frame = CGRect(x: 0, y: 0, width: viewWidth, height: viewHeight)
+            newView?.backgroundColor = UIColor.clear
             
             var subview:UIView = UIView()
             if index % 5 == 0 {
-                subview.frame = CGRectMake((viewWidth - scalewidth) * 0.5, viewHeight - bottomScaleHeight - bottomScaleMargin - bigscaleHeight, scalewidth, bigscaleHeight)
-                label = UILabel(frame:CGRectMake((viewWidth - labelWidth) * 0.5, viewHeight - bigscaleHeight - bottomScaleMargin - bottomScaleHeight - labelHeight - labelMargin, labelWidth, labelHeight))
-                label.backgroundColor = UIColor.clearColor()
-                label.textAlignment = .Center
+                subview.frame = CGRect(x: (viewWidth - scalewidth) * 0.5, y: viewHeight - bottomScaleHeight - bottomScaleMargin - bigscaleHeight, width: scalewidth, height: bigscaleHeight)
+                label = UILabel(frame:CGRect(x: (viewWidth - labelWidth) * 0.5, y: viewHeight - bigscaleHeight - bottomScaleMargin - bottomScaleHeight - labelHeight - labelMargin, width: labelWidth, height: labelHeight))
+                label.backgroundColor = UIColor.clear
+                label.textAlignment = .center
                 
-                label.font = label.font.fontWithSize(12)
+                label.font = label.font.withSize(12)
                 label.text = "\(index)"
-                newView.addSubview(label)
+                newView?.addSubview(label)
             }
             else {
-                subview.frame = CGRectMake((viewWidth - scalewidth) * 0.5, viewHeight - bottomScaleHeight - bottomScaleMargin - bigscaleHeight * 0.5, scalewidth, bigscaleHeight * 0.5)
+                subview.frame = CGRect(x: (viewWidth - scalewidth) * 0.5, y: viewHeight - bottomScaleHeight - bottomScaleMargin - bigscaleHeight * 0.5, width: scalewidth, height: bigscaleHeight * 0.5)
             }
             let maskLayer = CAShapeLayer()
-            maskLayer.path = UIBezierPath(roundedRect: subview.bounds, byRoundingCorners: .TopLeft | .TopRight, cornerRadii: CGSize(width: 10.0, height: 10.0)).CGPath
+            maskLayer.path = UIBezierPath(roundedRect: subview.bounds, byRoundingCorners: [.topLeft , .topRight], cornerRadii: CGSize(width: 10.0, height: 10.0)).cgPath
             subview.layer.mask = maskLayer
             subview.backgroundColor = UIColor(red: 88.0/255.0, green: 194.0/255.0, blue: 56.0/255.0, alpha: 1.0)
-            newView .addSubview(subview)
+            newView? .addSubview(subview)
             
 //            var horizontalView:UIView = UIView(frame: CGRectMake(0, viewHeight - bottomScaleHeight, viewWidth, bottomScaleHeight))
 //            horizontalView.backgroundColor = UIColor(red: 88.0/255.0, green: 194.0/255.0, blue: 56.0/255.0, alpha: 1.0)
@@ -95,19 +94,19 @@ class ViewController: UIViewController, iCarouselDataSource, iCarouselDelegate
         return newView
     }
     
-    func carousel(carousel: iCarousel!, valueForOption option: iCarouselOption, withDefault value: CGFloat) -> CGFloat
+    func carousel(_ carousel: iCarousel!, valueFor option: iCarouselOption, withDefault value: CGFloat) -> CGFloat
     {
-        if (option == .Spacing)
+        if (option == .spacing)
         {
             return 1
         }
 //        else if (option == .Radius) {
 //            return 100
 //        }
-        else if (option == .Arc) {
+        else if (option == .arc) {
             return 3
         }
-        else if (option == .Wrap)
+        else if (option == .wrap)
         {
             return 0
         }
@@ -118,15 +117,15 @@ class ViewController: UIViewController, iCarouselDataSource, iCarouselDelegate
         return value
     }
     
-    func carouselItemWidth(carousel: iCarousel!) -> CGFloat {
+    func carouselItemWidth(_ carousel: iCarousel!) -> CGFloat {
         return viewWidth
     }
     
-    func carousel(carousel: iCarousel!, didSelectItemAtIndex index: Int) {
+    func carousel(_ carousel: iCarousel!, didSelectItemAt index: Int) {
         label.text = "\(index)"
     }
     
-    func carouselDidScroll(carousel: iCarousel!) {
+    func carouselDidScroll(_ carousel: iCarousel!) {
         label.text = "\(carousel.currentItemIndex) seconds"
     }
 }

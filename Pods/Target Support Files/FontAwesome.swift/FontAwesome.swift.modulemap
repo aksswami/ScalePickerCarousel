@@ -1,5 +1,5 @@
 framework module FontAwesome_swift {
-  umbrella header "Pods-ScalePickerCarousel-FontAwesome.swift-umbrella.h"
+  umbrella header "FontAwesome.swift-umbrella.h"
 
   export *
   module * { export * }

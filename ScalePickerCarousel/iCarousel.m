@@ -518,7 +518,7 @@ NSComparisonResult compareViewDepth(UIView *view1, UIView *view2, iCarousel *sel
 //                spacing = 5.0/(diff > 0 ? diff : -diff);
 //            }
             NSLog(@"Offset: %f  diff: %ld", offset, (long)diff);
-            offset = offset - 0.03 * (diff < 0 ? -(diff * diff) : (diff * diff));
+            offset = offset - 0.0015 * (diff < 0 ? (diff * diff * diff) : (diff * diff * diff));
             
             NSLog(@"Offset: %f  diff: %ld\n\n", offset, (long)diff);
             if (_vertical)

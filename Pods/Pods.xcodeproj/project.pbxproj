@@ -7,417 +7,537 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07567B6D49548CC9A20E6703 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A04BF36F41A215A3FF6CE34E /* Foundation.framework */; };
-		280AD7E3DC0FB80412112831 /* Pods-ScalePickerCarousel-FontAwesome.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2DBA13F9A9DAD9D3E260480 /* Pods-ScalePickerCarousel-FontAwesome.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3A7B68AE9A9433EAD2D88689 /* Pods-ScalePickerCarousel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 32C8D3AE7875C6F03F46A71B /* Pods-ScalePickerCarousel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5662A7FD82F9926666CF5B00 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19860394FB155CFC170DCB49 /* Enum.swift */; };
-		583C7A2D723C4862282CDF4F /* Pods-ScalePickerCarousel-FontAwesome.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3816F6C9D6ABB578D9B58F07 /* Pods-ScalePickerCarousel-FontAwesome.swift-dummy.m */; };
-		5CC064D1892115C30CB24BC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A04BF36F41A215A3FF6CE34E /* Foundation.framework */; };
-		74B1C181C892725B965AF2A9 /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BF2D6C3FC4B7396C59F26A /* FontAwesome.swift */; };
-		948D856F340DC11F96DDF25B /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF05B768493DBFC446F8EF45 /* CoreText.framework */; };
-		AA9924167A5EF3E9934EB6FE /* Pods-ScalePickerCarousel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C5B99CD0D0ADC1F92B4A67 /* Pods-ScalePickerCarousel-dummy.m */; };
-		E893622EF1C797AE7750E254 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 736AAFB062FE76839139DF4A /* FontAwesome.otf */; };
-		F2860A0538444249D640BFE7 /* FontAwesome.swift.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E96FED399981E866D85069EE /* FontAwesome.swift.bundle */; };
-		F34A3F3778E63A352A7F5AF0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CB7B5C062CAD65354E40A6B /* UIKit.framework */; };
+		12D1D54665B1EDC301F4E9A900C42DC3 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4184554D61F2FA3FA20364271C01D37F /* Enum.swift */; };
+		18265A2DF1210AE176A7EB58FA9259B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32431FA5524F12225B1B779AF3E4A6D /* Foundation.framework */; };
+		1E8AFE472FB746AF971BC06D3BFDC740 /* Pods-ScalePickerCarouselTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C9D599ED32BFB45E9B89C1304ACA0F4 /* Pods-ScalePickerCarouselTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27967FFAE1AD1B478141BDE32EF090CF /* FontAwesomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F271F74D70350F46EA5346707A2474 /* FontAwesomeView.swift */; };
+		2B59A682DFEBA9841737A0FADFB0D67F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C23E16390F6F5920E271EBFB6A30A8 /* UIKit.framework */; };
+		3DDE96C1DBE8B94559B5F57A31D4C791 /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF705D905E5FDD09B9A5803E70860E0 /* FontAwesome.swift */; };
+		4029677485BFB91ECC0E07A0120ACE68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32431FA5524F12225B1B779AF3E4A6D /* Foundation.framework */; };
+		4F59A7098B88C46360390D24179B6FCB /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282E317D90744761F406E685BC46589A /* CoreText.framework */; };
+		4FFA6651790C1B6890BC8AF9BCE67AD4 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = F42506C7C75E4B10CFB210B4292DA4E3 /* FontAwesome.otf */; };
+		569F04D9FE142D8FC8927BF46C689F9A /* Pods-ScalePickerCarousel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A57DEE7AAEFE2CCE2936CCEA68C23D09 /* Pods-ScalePickerCarousel-dummy.m */; };
+		977893CD9D5483CEDEC34CC89B83CAA7 /* FontAwesome.swift.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6EDD8C9F0419515970CD2074BFDC1CFF /* FontAwesome.swift.bundle */; };
+		9BA89E90D08F82EC682B2BC6622669E0 /* FontAwesome.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CB8DF1487534236349AFF43A3A406F9 /* FontAwesome.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3D907335126ECB9E96CCA0812BAF780 /* Pods-ScalePickerCarousel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14108B34D980DA82231D6E61A940906F /* Pods-ScalePickerCarousel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF0F718C9F8E2818B98012CDDA4C6805 /* FontAwesome.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D620B3758E51423C055C8C9AD9688B6E /* FontAwesome.swift-dummy.m */; };
+		D51D8DE266AFEF054D5719565DEB92BB /* Pods-ScalePickerCarouselTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF5A5BB71FF7B0FEE1FB0F9398BC6BC /* Pods-ScalePickerCarouselTests-dummy.m */; };
+		DDF49C4EFB4458FE6B89B5E30F7E2EAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32431FA5524F12225B1B779AF3E4A6D /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		45B42A679B31A7306A61C39E /* PBXContainerItemProxy */ = {
+		192DAE8239CEDF28426AC10F45C42C62 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2F8093F6813CDDDF6733DD54 /* Project object */;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 304E53BE727DA45672070266;
-			remoteInfo = "Pods-ScalePickerCarousel-FontAwesome.swift";
+			remoteGlobalIDString = EF4F067C2D0E135B80299B089E168BDA;
+			remoteInfo = "FontAwesome.swift-FontAwesome.swift";
 		};
-		8C83DE6D259F71D0BF306825 /* PBXContainerItemProxy */ = {
+		E30AFEDAC73852A3A1A8037133CD765F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2F8093F6813CDDDF6733DD54 /* Project object */;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 78C5FD0827474E3622641AA2;
-			remoteInfo = "Pods-ScalePickerCarousel-FontAwesome.swift-FontAwesome.swift";
+			remoteGlobalIDString = 1FE2578FF0805299395CF2A0206BB671;
+			remoteInfo = FontAwesome.swift;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09C5B99CD0D0ADC1F92B4A67 /* Pods-ScalePickerCarousel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScalePickerCarousel-dummy.m"; sourceTree = "<group>"; };
-		19860394FB155CFC170DCB49 /* Enum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Enum.swift; path = FontAwesome/Enum.swift; sourceTree = "<group>"; };
-		1F4E949BF4BECCB01F93A2C2 /* Pods-ScalePickerCarousel-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScalePickerCarousel-resources.sh"; sourceTree = "<group>"; };
-		21734FBDEAA437ACBE5C0878 /* Pods-ScalePickerCarousel-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScalePickerCarousel-frameworks.sh"; sourceTree = "<group>"; };
-		27608F4C63987E331C38C9B8 /* Pods-ScalePickerCarousel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ScalePickerCarousel.modulemap"; sourceTree = "<group>"; };
-		32C8D3AE7875C6F03F46A71B /* Pods-ScalePickerCarousel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ScalePickerCarousel-umbrella.h"; sourceTree = "<group>"; };
-		3816F6C9D6ABB578D9B58F07 /* Pods-ScalePickerCarousel-FontAwesome.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScalePickerCarousel-FontAwesome.swift-dummy.m"; sourceTree = "<group>"; };
-		4A017E08989893D191A067B6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5CB7B5C062CAD65354E40A6B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		5D262030F7A154A66E02F926 /* Pods-ScalePickerCarousel-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScalePickerCarousel-acknowledgements.plist"; sourceTree = "<group>"; };
-		6F5A0AA5E35E635DAFCDDAE9 /* Pods-ScalePickerCarousel-FontAwesome.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ScalePickerCarousel-FontAwesome.swift-prefix.pch"; sourceTree = "<group>"; };
-		736AAFB062FE76839139DF4A /* FontAwesome.otf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = FontAwesome.otf; path = FontAwesome/FontAwesome.otf; sourceTree = "<group>"; };
-		8223FAD6EDCEDDBEE6758E20 /* Pods-ScalePickerCarousel-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScalePickerCarousel-acknowledgements.markdown"; sourceTree = "<group>"; };
-		82B3F0E5AFA5D508FD2351D5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A04BF36F41A215A3FF6CE34E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		A2DBA13F9A9DAD9D3E260480 /* Pods-ScalePickerCarousel-FontAwesome.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ScalePickerCarousel-FontAwesome.swift-umbrella.h"; sourceTree = "<group>"; };
-		A8ACE4E96F41DF3A9FBB8F67 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		ABD68644469F12ABD0128337 /* Pods-ScalePickerCarousel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScalePickerCarousel.debug.xcconfig"; sourceTree = "<group>"; };
-		AC5F2FCA3E17884071EA3F4B /* Pods-ScalePickerCarousel-FontAwesome.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ScalePickerCarousel-FontAwesome.swift.modulemap"; sourceTree = "<group>"; };
-		AE498E36A733CE77CEC14388 /* Pods-ScalePickerCarousel-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ScalePickerCarousel-environment.h"; sourceTree = "<group>"; };
-		AF05B768493DBFC446F8EF45 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
-		B27C1CB42AB3CD60E4767255 /* Pods-ScalePickerCarousel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScalePickerCarousel.release.xcconfig"; sourceTree = "<group>"; };
-		C265BF8E49F5F6DD62B82B7F /* Pods_ScalePickerCarousel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScalePickerCarousel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEF4E348DFCE8F9D813DD4C1 /* FontAwesome_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FontAwesome_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE9B62D7D02317D7E4CA4208 /* Pods-ScalePickerCarousel-FontAwesome.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScalePickerCarousel-FontAwesome.swift.xcconfig"; sourceTree = "<group>"; };
-		E7BF2D6C3FC4B7396C59F26A /* FontAwesome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesome.swift; path = FontAwesome/FontAwesome.swift; sourceTree = "<group>"; };
-		E96FED399981E866D85069EE /* FontAwesome.swift.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontAwesome.swift.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		F7E3A4B3699009B2CFAA6E65 /* Pods-ScalePickerCarousel-FontAwesome.swift-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScalePickerCarousel-FontAwesome.swift-Private.xcconfig"; sourceTree = "<group>"; };
+		00F6450B49DE75605C5266B9C2D47523 /* Pods-ScalePickerCarousel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScalePickerCarousel.debug.xcconfig"; sourceTree = "<group>"; };
+		09BADCA737FC122A434EB54E792FA45D /* Pods-ScalePickerCarousel-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScalePickerCarousel-resources.sh"; sourceTree = "<group>"; };
+		0AC578119FEFA92AD1AFA13E4D8782D7 /* Pods-ScalePickerCarousel-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScalePickerCarousel-acknowledgements.plist"; sourceTree = "<group>"; };
+		131DBFE10E68BF6E7A3259D43552575A /* Pods-ScalePickerCarousel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ScalePickerCarousel.modulemap"; sourceTree = "<group>"; };
+		14108B34D980DA82231D6E61A940906F /* Pods-ScalePickerCarousel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ScalePickerCarousel-umbrella.h"; sourceTree = "<group>"; };
+		1CB88546B17539E9552BBAE1D30FF268 /* FontAwesome.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesome.swift-prefix.pch"; sourceTree = "<group>"; };
+		2467CEBEFCAA0D1255221F83DFC075EA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27C23E16390F6F5920E271EBFB6A30A8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		282E317D90744761F406E685BC46589A /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		2E1B48D14E7D29E0252870809960C86F /* Pods-ScalePickerCarousel-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScalePickerCarousel-frameworks.sh"; sourceTree = "<group>"; };
+		335EBE85E477E3381313D1A301C0406D /* Pods-ScalePickerCarouselTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScalePickerCarouselTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3577B1FCECC6A9CE495B87F864B16912 /* FontAwesome.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FontAwesome.swift.modulemap; sourceTree = "<group>"; };
+		3C9D599ED32BFB45E9B89C1304ACA0F4 /* Pods-ScalePickerCarouselTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ScalePickerCarouselTests-umbrella.h"; sourceTree = "<group>"; };
+		3CB8DF1487534236349AFF43A3A406F9 /* FontAwesome.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesome.swift-umbrella.h"; sourceTree = "<group>"; };
+		4184554D61F2FA3FA20364271C01D37F /* Enum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Enum.swift; path = FontAwesome/Enum.swift; sourceTree = "<group>"; };
+		55B7881CE95EBAD92394873E8D921E98 /* FontAwesome_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FontAwesome_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A4C3B831D600FB6356582451C24B96B /* Pods-ScalePickerCarouselTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScalePickerCarouselTests-frameworks.sh"; sourceTree = "<group>"; };
+		5ABC2843B2FCA0CD14C7466000EB37CA /* Pods-ScalePickerCarouselTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScalePickerCarouselTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6EDD8C9F0419515970CD2074BFDC1CFF /* FontAwesome.swift.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontAwesome.swift.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		81C73E22256B422A5DFAA9057728FAC0 /* Pods_ScalePickerCarousel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScalePickerCarousel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82BD1F612DD3BBA3662A56F4AD28A282 /* Pods-ScalePickerCarousel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScalePickerCarousel.release.xcconfig"; sourceTree = "<group>"; };
+		897B502161F14A3F5888336041ABB051 /* Pods-ScalePickerCarouselTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ScalePickerCarouselTests.modulemap"; sourceTree = "<group>"; };
+		908414DF2E31A9681D0C30AEDB320A54 /* Pods-ScalePickerCarouselTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScalePickerCarouselTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		91F271F74D70350F46EA5346707A2474 /* FontAwesomeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeView.swift; path = FontAwesome/FontAwesomeView.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A57DEE7AAEFE2CCE2936CCEA68C23D09 /* Pods-ScalePickerCarousel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScalePickerCarousel-dummy.m"; sourceTree = "<group>"; };
+		A7B9BEB63423FE7438CFEC03420EB981 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B290F07C4B25314616107EC9A0E3D4BC /* ResourceBundle-FontAwesome.swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FontAwesome.swift-Info.plist"; sourceTree = "<group>"; };
+		B32431FA5524F12225B1B779AF3E4A6D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B70E9BE32AC0A03417B058FD3BE648A5 /* Pods-ScalePickerCarouselTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScalePickerCarouselTests.release.xcconfig"; sourceTree = "<group>"; };
+		B8A2FBEC6D3C2E7E76E0FBBDD1F0382E /* Pods-ScalePickerCarousel-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScalePickerCarousel-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C29EA287CF3E8FDC76324E624F083678 /* Pods-ScalePickerCarouselTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScalePickerCarouselTests-resources.sh"; sourceTree = "<group>"; };
+		CCF705D905E5FDD09B9A5803E70860E0 /* FontAwesome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesome.swift; path = FontAwesome/FontAwesome.swift; sourceTree = "<group>"; };
+		D46E3A9AADADC66FA2434D85804309FB /* Pods_ScalePickerCarouselTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScalePickerCarouselTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D620B3758E51423C055C8C9AD9688B6E /* FontAwesome.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FontAwesome.swift-dummy.m"; sourceTree = "<group>"; };
+		DDF5A5BB71FF7B0FEE1FB0F9398BC6BC /* Pods-ScalePickerCarouselTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScalePickerCarouselTests-dummy.m"; sourceTree = "<group>"; };
+		E4139EE8626234D0E674F0BAFD1E8F08 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E751643369496E4CD4EDF66244DD1BD9 /* FontAwesome.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FontAwesome.swift.xcconfig; sourceTree = "<group>"; };
+		F42506C7C75E4B10CFB210B4292DA4E3 /* FontAwesome.otf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = FontAwesome.otf; path = FontAwesome/FontAwesome.otf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		02BBF016BF2FA560369FDAAA /* Frameworks */ = {
+		5578ABFFBCB65D3EBF4D0CD1D5A77EB2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CC064D1892115C30CB24BC8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		651B1819C81D1C30FDE625E0 /* Frameworks */ = {
+		680B0D698B634AF8BF22EF2B2A54F654 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				948D856F340DC11F96DDF25B /* CoreText.framework in Frameworks */,
-				07567B6D49548CC9A20E6703 /* Foundation.framework in Frameworks */,
-				F34A3F3778E63A352A7F5AF0 /* UIKit.framework in Frameworks */,
+				DDF49C4EFB4458FE6B89B5E30F7E2EAD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7E3CC2EBC3CA1429340DD7C0 /* Frameworks */ = {
+		86EBEB7A5BC84E3C24D67ADD82B00EA6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F59A7098B88C46360390D24179B6FCB /* CoreText.framework in Frameworks */,
+				18265A2DF1210AE176A7EB58FA9259B0 /* Foundation.framework in Frameworks */,
+				2B59A682DFEBA9841737A0FADFB0D67F /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8133D8BEDCC2726C6F265D1C2EF71D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4029677485BFB91ECC0E07A0120ACE68 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		17E29A99160C055DE4B68C08 /* FontAwesome.swift */ = {
+		0301C5C9B5F6AF966D9E63983421A0CF /* Pods-ScalePickerCarousel */ = {
 			isa = PBXGroup;
 			children = (
-				19860394FB155CFC170DCB49 /* Enum.swift */,
-				E7BF2D6C3FC4B7396C59F26A /* FontAwesome.swift */,
-				66299675CA21A1D662C29045 /* Resources */,
-				9614F8D72CBACD129C3A2250 /* Support Files */,
-			);
-			path = FontAwesome.swift;
-			sourceTree = "<group>";
-		};
-		30F49A838939D9AD58C9E636 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				AF05B768493DBFC446F8EF45 /* CoreText.framework */,
-				A04BF36F41A215A3FF6CE34E /* Foundation.framework */,
-				5CB7B5C062CAD65354E40A6B /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		36558A2410C239AC4ED2410E /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7CE0DCF705DC054343BBC480 /* Pods-ScalePickerCarousel */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		66299675CA21A1D662C29045 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				736AAFB062FE76839139DF4A /* FontAwesome.otf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		7CE0DCF705DC054343BBC480 /* Pods-ScalePickerCarousel */ = {
-			isa = PBXGroup;
-			children = (
-				4A017E08989893D191A067B6 /* Info.plist */,
-				27608F4C63987E331C38C9B8 /* Pods-ScalePickerCarousel.modulemap */,
-				8223FAD6EDCEDDBEE6758E20 /* Pods-ScalePickerCarousel-acknowledgements.markdown */,
-				5D262030F7A154A66E02F926 /* Pods-ScalePickerCarousel-acknowledgements.plist */,
-				09C5B99CD0D0ADC1F92B4A67 /* Pods-ScalePickerCarousel-dummy.m */,
-				AE498E36A733CE77CEC14388 /* Pods-ScalePickerCarousel-environment.h */,
-				21734FBDEAA437ACBE5C0878 /* Pods-ScalePickerCarousel-frameworks.sh */,
-				1F4E949BF4BECCB01F93A2C2 /* Pods-ScalePickerCarousel-resources.sh */,
-				32C8D3AE7875C6F03F46A71B /* Pods-ScalePickerCarousel-umbrella.h */,
-				ABD68644469F12ABD0128337 /* Pods-ScalePickerCarousel.debug.xcconfig */,
-				B27C1CB42AB3CD60E4767255 /* Pods-ScalePickerCarousel.release.xcconfig */,
+				A7B9BEB63423FE7438CFEC03420EB981 /* Info.plist */,
+				131DBFE10E68BF6E7A3259D43552575A /* Pods-ScalePickerCarousel.modulemap */,
+				B8A2FBEC6D3C2E7E76E0FBBDD1F0382E /* Pods-ScalePickerCarousel-acknowledgements.markdown */,
+				0AC578119FEFA92AD1AFA13E4D8782D7 /* Pods-ScalePickerCarousel-acknowledgements.plist */,
+				A57DEE7AAEFE2CCE2936CCEA68C23D09 /* Pods-ScalePickerCarousel-dummy.m */,
+				2E1B48D14E7D29E0252870809960C86F /* Pods-ScalePickerCarousel-frameworks.sh */,
+				09BADCA737FC122A434EB54E792FA45D /* Pods-ScalePickerCarousel-resources.sh */,
+				14108B34D980DA82231D6E61A940906F /* Pods-ScalePickerCarousel-umbrella.h */,
+				00F6450B49DE75605C5266B9C2D47523 /* Pods-ScalePickerCarousel.debug.xcconfig */,
+				82BD1F612DD3BBA3662A56F4AD28A282 /* Pods-ScalePickerCarousel.release.xcconfig */,
 			);
 			name = "Pods-ScalePickerCarousel";
 			path = "Target Support Files/Pods-ScalePickerCarousel";
 			sourceTree = "<group>";
 		};
-		9614F8D72CBACD129C3A2250 /* Support Files */ = {
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				82B3F0E5AFA5D508FD2351D5 /* Info.plist */,
-				AC5F2FCA3E17884071EA3F4B /* Pods-ScalePickerCarousel-FontAwesome.swift.modulemap */,
-				DE9B62D7D02317D7E4CA4208 /* Pods-ScalePickerCarousel-FontAwesome.swift.xcconfig */,
-				F7E3A4B3699009B2CFAA6E65 /* Pods-ScalePickerCarousel-FontAwesome.swift-Private.xcconfig */,
-				3816F6C9D6ABB578D9B58F07 /* Pods-ScalePickerCarousel-FontAwesome.swift-dummy.m */,
-				6F5A0AA5E35E635DAFCDDAE9 /* Pods-ScalePickerCarousel-FontAwesome.swift-prefix.pch */,
-				A2DBA13F9A9DAD9D3E260480 /* Pods-ScalePickerCarousel-FontAwesome.swift-umbrella.h */,
+				3587588751A8A6B53D9C05B2DC18428D /* iOS */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-ScalePickerCarousel-FontAwesome.swift";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9E460A36C4E4008123B315D2 /* Pods */ = {
+		3587588751A8A6B53D9C05B2DC18428D /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				17E29A99160C055DE4B68C08 /* FontAwesome.swift */,
+				282E317D90744761F406E685BC46589A /* CoreText.framework */,
+				B32431FA5524F12225B1B779AF3E4A6D /* Foundation.framework */,
+				27C23E16390F6F5920E271EBFB6A30A8 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5B6E7B87EA48D2553333F40ADC53BB7A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77A3070CF9AFE13E5182F616FA483D4A /* FontAwesome.swift */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		B0FFEAB5EF3923CE32AF093F /* Products */ = {
+		615484FBAAA09B83A203E114965B33D6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E96FED399981E866D85069EE /* FontAwesome.swift.bundle */,
-				CEF4E348DFCE8F9D813DD4C1 /* FontAwesome_swift.framework */,
-				C265BF8E49F5F6DD62B82B7F /* Pods_ScalePickerCarousel.framework */,
+				6EDD8C9F0419515970CD2074BFDC1CFF /* FontAwesome.swift.bundle */,
+				55B7881CE95EBAD92394873E8D921E98 /* FontAwesome_swift.framework */,
+				81C73E22256B422A5DFAA9057728FAC0 /* Pods_ScalePickerCarousel.framework */,
+				D46E3A9AADADC66FA2434D85804309FB /* Pods_ScalePickerCarouselTests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BEFA8E5075DD5A3F749D0FD1 = {
+		77A3070CF9AFE13E5182F616FA483D4A /* FontAwesome.swift */ = {
 			isa = PBXGroup;
 			children = (
-				A8ACE4E96F41DF3A9FBB8F67 /* Podfile */,
-				C78BC8B1D902B58F1620A87A /* Frameworks */,
-				9E460A36C4E4008123B315D2 /* Pods */,
-				B0FFEAB5EF3923CE32AF093F /* Products */,
-				36558A2410C239AC4ED2410E /* Targets Support Files */,
+				4184554D61F2FA3FA20364271C01D37F /* Enum.swift */,
+				CCF705D905E5FDD09B9A5803E70860E0 /* FontAwesome.swift */,
+				91F271F74D70350F46EA5346707A2474 /* FontAwesomeView.swift */,
+				B47A97F8EF9B33C309C9D42ADA6ED48C /* Resources */,
+				8C791BC092E15C47CDC150C4789396EA /* Support Files */,
+			);
+			path = FontAwesome.swift;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				5B6E7B87EA48D2553333F40ADC53BB7A /* Pods */,
+				615484FBAAA09B83A203E114965B33D6 /* Products */,
+				AC5A3A090146AF10920C8E3B9B5BFE13 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		C78BC8B1D902B58F1620A87A /* Frameworks */ = {
+		8C791BC092E15C47CDC150C4789396EA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				30F49A838939D9AD58C9E636 /* iOS */,
+				3577B1FCECC6A9CE495B87F864B16912 /* FontAwesome.swift.modulemap */,
+				E751643369496E4CD4EDF66244DD1BD9 /* FontAwesome.swift.xcconfig */,
+				D620B3758E51423C055C8C9AD9688B6E /* FontAwesome.swift-dummy.m */,
+				1CB88546B17539E9552BBAE1D30FF268 /* FontAwesome.swift-prefix.pch */,
+				3CB8DF1487534236349AFF43A3A406F9 /* FontAwesome.swift-umbrella.h */,
+				2467CEBEFCAA0D1255221F83DFC075EA /* Info.plist */,
+				B290F07C4B25314616107EC9A0E3D4BC /* ResourceBundle-FontAwesome.swift-Info.plist */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/FontAwesome.swift";
+			sourceTree = "<group>";
+		};
+		9D297F228CA9C283DF79C1EE662D11F1 /* Pods-ScalePickerCarouselTests */ = {
+			isa = PBXGroup;
+			children = (
+				E4139EE8626234D0E674F0BAFD1E8F08 /* Info.plist */,
+				897B502161F14A3F5888336041ABB051 /* Pods-ScalePickerCarouselTests.modulemap */,
+				908414DF2E31A9681D0C30AEDB320A54 /* Pods-ScalePickerCarouselTests-acknowledgements.markdown */,
+				335EBE85E477E3381313D1A301C0406D /* Pods-ScalePickerCarouselTests-acknowledgements.plist */,
+				DDF5A5BB71FF7B0FEE1FB0F9398BC6BC /* Pods-ScalePickerCarouselTests-dummy.m */,
+				5A4C3B831D600FB6356582451C24B96B /* Pods-ScalePickerCarouselTests-frameworks.sh */,
+				C29EA287CF3E8FDC76324E624F083678 /* Pods-ScalePickerCarouselTests-resources.sh */,
+				3C9D599ED32BFB45E9B89C1304ACA0F4 /* Pods-ScalePickerCarouselTests-umbrella.h */,
+				5ABC2843B2FCA0CD14C7466000EB37CA /* Pods-ScalePickerCarouselTests.debug.xcconfig */,
+				B70E9BE32AC0A03417B058FD3BE648A5 /* Pods-ScalePickerCarouselTests.release.xcconfig */,
+			);
+			name = "Pods-ScalePickerCarouselTests";
+			path = "Target Support Files/Pods-ScalePickerCarouselTests";
+			sourceTree = "<group>";
+		};
+		AC5A3A090146AF10920C8E3B9B5BFE13 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0301C5C9B5F6AF966D9E63983421A0CF /* Pods-ScalePickerCarousel */,
+				9D297F228CA9C283DF79C1EE662D11F1 /* Pods-ScalePickerCarouselTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B47A97F8EF9B33C309C9D42ADA6ED48C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F42506C7C75E4B10CFB210B4292DA4E3 /* FontAwesome.otf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		212CA547AB5719DB2093F506 /* Headers */ = {
+		13777D85DF4CD6678BD632B70F670E28 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A7B68AE9A9433EAD2D88689 /* Pods-ScalePickerCarousel-umbrella.h in Headers */,
+				9BA89E90D08F82EC682B2BC6622669E0 /* FontAwesome.swift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		752BD39620DEE236B5E0828F /* Headers */ = {
+		99310C231A53AA265FCDED0F60F26540 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				280AD7E3DC0FB80412112831 /* Pods-ScalePickerCarousel-FontAwesome.swift-umbrella.h in Headers */,
+				B3D907335126ECB9E96CCA0812BAF780 /* Pods-ScalePickerCarousel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE9483633DEB4C01CE1C268C0962C8C6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E8AFE472FB746AF971BC06D3BFDC740 /* Pods-ScalePickerCarouselTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		304E53BE727DA45672070266 /* Pods-ScalePickerCarousel-FontAwesome.swift */ = {
+		1FE2578FF0805299395CF2A0206BB671 /* FontAwesome.swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 40F8C3A19701CE07C312585F /* Build configuration list for PBXNativeTarget "Pods-ScalePickerCarousel-FontAwesome.swift" */;
+			buildConfigurationList = F38BD62EC04F59923F9724EE5CEF993B /* Build configuration list for PBXNativeTarget "FontAwesome.swift" */;
 			buildPhases = (
-				3EC5FBB8E5B073CE995235E7 /* Sources */,
-				651B1819C81D1C30FDE625E0 /* Frameworks */,
-				FD00FBCCDDA50B60A5F24BDC /* Resources */,
-				752BD39620DEE236B5E0828F /* Headers */,
+				09814B1C51ECFF2DBBA94B61CEAB2E19 /* Sources */,
+				86EBEB7A5BC84E3C24D67ADD82B00EA6 /* Frameworks */,
+				E4D30328F854BCE3F55C358DF822523A /* Resources */,
+				13777D85DF4CD6678BD632B70F670E28 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				65B5912D41EB9D93718F8329 /* PBXTargetDependency */,
+				5044CA3A48D08FC86E1A3B1F860FAE01 /* PBXTargetDependency */,
 			);
-			name = "Pods-ScalePickerCarousel-FontAwesome.swift";
-			productName = "Pods-ScalePickerCarousel-FontAwesome.swift";
-			productReference = CEF4E348DFCE8F9D813DD4C1 /* FontAwesome_swift.framework */;
+			name = FontAwesome.swift;
+			productName = FontAwesome.swift;
+			productReference = 55B7881CE95EBAD92394873E8D921E98 /* FontAwesome_swift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		78C5FD0827474E3622641AA2 /* Pods-ScalePickerCarousel-FontAwesome.swift-FontAwesome.swift */ = {
+		83FCBA0EE2A0BB6C45A94AD90110C44F /* Pods-ScalePickerCarouselTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA56887DB9893ABBF78B773B /* Build configuration list for PBXNativeTarget "Pods-ScalePickerCarousel-FontAwesome.swift-FontAwesome.swift" */;
+			buildConfigurationList = A180FAC878D3C08460CA3E8D5F379003 /* Build configuration list for PBXNativeTarget "Pods-ScalePickerCarouselTests" */;
 			buildPhases = (
-				7D010039AFB9F0A48AB0BE6C /* Sources */,
-				7E3CC2EBC3CA1429340DD7C0 /* Frameworks */,
-				185A16D680B1E089FF129CCF /* Resources */,
+				C1D95D5B57D0B13E55E2BCD7A7EADC14 /* Sources */,
+				680B0D698B634AF8BF22EF2B2A54F654 /* Frameworks */,
+				AE9483633DEB4C01CE1C268C0962C8C6 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-ScalePickerCarousel-FontAwesome.swift-FontAwesome.swift";
-			productName = "Pods-ScalePickerCarousel-FontAwesome.swift-FontAwesome.swift";
-			productReference = E96FED399981E866D85069EE /* FontAwesome.swift.bundle */;
+			name = "Pods-ScalePickerCarouselTests";
+			productName = "Pods-ScalePickerCarouselTests";
+			productReference = D46E3A9AADADC66FA2434D85804309FB /* Pods_ScalePickerCarouselTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EF4F067C2D0E135B80299B089E168BDA /* FontAwesome.swift-FontAwesome.swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7B375BC6286A9E3DE2F46F4B52CBA3F /* Build configuration list for PBXNativeTarget "FontAwesome.swift-FontAwesome.swift" */;
+			buildPhases = (
+				619EA0F427AF8584A7B03876241916DE /* Sources */,
+				5578ABFFBCB65D3EBF4D0CD1D5A77EB2 /* Frameworks */,
+				56ECBAFBCBB76303F03696DA1E059127 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FontAwesome.swift-FontAwesome.swift";
+			productName = "FontAwesome.swift-FontAwesome.swift";
+			productReference = 6EDD8C9F0419515970CD2074BFDC1CFF /* FontAwesome.swift.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		8946CF7DFDDB9986941CAAEE /* Pods-ScalePickerCarousel */ = {
+		F7A9AD86BFFC5F020974DF9BD24ABB0A /* Pods-ScalePickerCarousel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 39A12A717C618972C2CA67DE /* Build configuration list for PBXNativeTarget "Pods-ScalePickerCarousel" */;
+			buildConfigurationList = E5292F3ABD1D499B57A66CDB77C7B780 /* Build configuration list for PBXNativeTarget "Pods-ScalePickerCarousel" */;
 			buildPhases = (
-				A823C9C688F6D5E3B232C746 /* Sources */,
-				02BBF016BF2FA560369FDAAA /* Frameworks */,
-				212CA547AB5719DB2093F506 /* Headers */,
+				8F2C5F3A64597E976F51C947F9EF789E /* Sources */,
+				EE8133D8BEDCC2726C6F265D1C2EF71D /* Frameworks */,
+				99310C231A53AA265FCDED0F60F26540 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4DD14A51AB07B1C0D2C74B19 /* PBXTargetDependency */,
+				FFCD7EC9419F170694C8262228E9955E /* PBXTargetDependency */,
 			);
 			name = "Pods-ScalePickerCarousel";
 			productName = "Pods-ScalePickerCarousel";
-			productReference = C265BF8E49F5F6DD62B82B7F /* Pods_ScalePickerCarousel.framework */;
+			productReference = 81C73E22256B422A5DFAA9057728FAC0 /* Pods_ScalePickerCarousel.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2F8093F6813CDDDF6733DD54 /* Project object */ = {
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
 			};
-			buildConfigurationList = F7138087DE9D1D43B3636B67 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = BEFA8E5075DD5A3F749D0FD1;
-			productRefGroup = B0FFEAB5EF3923CE32AF093F /* Products */;
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 615484FBAAA09B83A203E114965B33D6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8946CF7DFDDB9986941CAAEE /* Pods-ScalePickerCarousel */,
-				304E53BE727DA45672070266 /* Pods-ScalePickerCarousel-FontAwesome.swift */,
-				78C5FD0827474E3622641AA2 /* Pods-ScalePickerCarousel-FontAwesome.swift-FontAwesome.swift */,
+				1FE2578FF0805299395CF2A0206BB671 /* FontAwesome.swift */,
+				EF4F067C2D0E135B80299B089E168BDA /* FontAwesome.swift-FontAwesome.swift */,
+				F7A9AD86BFFC5F020974DF9BD24ABB0A /* Pods-ScalePickerCarousel */,
+				83FCBA0EE2A0BB6C45A94AD90110C44F /* Pods-ScalePickerCarouselTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		185A16D680B1E089FF129CCF /* Resources */ = {
+		56ECBAFBCBB76303F03696DA1E059127 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E893622EF1C797AE7750E254 /* FontAwesome.otf in Resources */,
+				4FFA6651790C1B6890BC8AF9BCE67AD4 /* FontAwesome.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD00FBCCDDA50B60A5F24BDC /* Resources */ = {
+		E4D30328F854BCE3F55C358DF822523A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2860A0538444249D640BFE7 /* FontAwesome.swift.bundle in Resources */,
+				977893CD9D5483CEDEC34CC89B83CAA7 /* FontAwesome.swift.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3EC5FBB8E5B073CE995235E7 /* Sources */ = {
+		09814B1C51ECFF2DBBA94B61CEAB2E19 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5662A7FD82F9926666CF5B00 /* Enum.swift in Sources */,
-				74B1C181C892725B965AF2A9 /* FontAwesome.swift in Sources */,
-				583C7A2D723C4862282CDF4F /* Pods-ScalePickerCarousel-FontAwesome.swift-dummy.m in Sources */,
+				12D1D54665B1EDC301F4E9A900C42DC3 /* Enum.swift in Sources */,
+				3DDE96C1DBE8B94559B5F57A31D4C791 /* FontAwesome.swift in Sources */,
+				CF0F718C9F8E2818B98012CDDA4C6805 /* FontAwesome.swift-dummy.m in Sources */,
+				27967FFAE1AD1B478141BDE32EF090CF /* FontAwesomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7D010039AFB9F0A48AB0BE6C /* Sources */ = {
+		619EA0F427AF8584A7B03876241916DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A823C9C688F6D5E3B232C746 /* Sources */ = {
+		8F2C5F3A64597E976F51C947F9EF789E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA9924167A5EF3E9934EB6FE /* Pods-ScalePickerCarousel-dummy.m in Sources */,
+				569F04D9FE142D8FC8927BF46C689F9A /* Pods-ScalePickerCarousel-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1D95D5B57D0B13E55E2BCD7A7EADC14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D51D8DE266AFEF054D5719565DEB92BB /* Pods-ScalePickerCarouselTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4DD14A51AB07B1C0D2C74B19 /* PBXTargetDependency */ = {
+		5044CA3A48D08FC86E1A3B1F860FAE01 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-ScalePickerCarousel-FontAwesome.swift";
-			target = 304E53BE727DA45672070266 /* Pods-ScalePickerCarousel-FontAwesome.swift */;
-			targetProxy = 45B42A679B31A7306A61C39E /* PBXContainerItemProxy */;
+			name = "FontAwesome.swift-FontAwesome.swift";
+			target = EF4F067C2D0E135B80299B089E168BDA /* FontAwesome.swift-FontAwesome.swift */;
+			targetProxy = 192DAE8239CEDF28426AC10F45C42C62 /* PBXContainerItemProxy */;
 		};
-		65B5912D41EB9D93718F8329 /* PBXTargetDependency */ = {
+		FFCD7EC9419F170694C8262228E9955E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-ScalePickerCarousel-FontAwesome.swift-FontAwesome.swift";
-			target = 78C5FD0827474E3622641AA2 /* Pods-ScalePickerCarousel-FontAwesome.swift-FontAwesome.swift */;
-			targetProxy = 8C83DE6D259F71D0BF306825 /* PBXContainerItemProxy */;
+			name = FontAwesome.swift;
+			target = 1FE2578FF0805299395CF2A0206BB671 /* FontAwesome.swift */;
+			targetProxy = E30AFEDAC73852A3A1A8037133CD765F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		73C4806DAB21DEABCEBE5385 /* Debug */ = {
+		0A377CDE9B27653F98E0692049B8DE19 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7E3A4B3699009B2CFAA6E65 /* Pods-ScalePickerCarousel-FontAwesome.swift-Private.xcconfig */;
+			baseConfigurationReference = E751643369496E4CD4EDF66244DD1BD9 /* FontAwesome.swift.xcconfig */;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-ScalePickerCarousel";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FontAwesome.swift";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/FontAwesome.swift/ResourceBundle-FontAwesome.swift-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = FontAwesome.swift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
+			name = Release;
 		};
-		7B7C08B133304D50F13A7F43 /* Release */ = {
+		408DB3413398B29EE089C0212414F9F3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B27C1CB42AB3CD60E4767255 /* Pods-ScalePickerCarousel.release.xcconfig */;
+			baseConfigurationReference = E751643369496E4CD4EDF66244DD1BD9 /* FontAwesome.swift.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ScalePickerCarousel/Info.plist";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FontAwesome.swift/FontAwesome.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FontAwesome.swift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-ScalePickerCarousel/Pods-ScalePickerCarousel.modulemap";
+				MODULEMAP_FILE = "Target Support Files/FontAwesome.swift/FontAwesome.swift.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_ScalePickerCarousel;
+				PRODUCT_NAME = FontAwesome_swift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		B47F98C1C90DFCCB4DE8A309 /* Release */ = {
+		64147827621B355A1E4C20FC21082C86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E751643369496E4CD4EDF66244DD1BD9 /* FontAwesome.swift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FontAwesome.swift/FontAwesome.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FontAwesome.swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FontAwesome.swift/FontAwesome.swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FontAwesome_swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -431,10 +551,14 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -442,89 +566,40 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		B6443461E0AEAC37871644CE /* Debug */ = {
+		91B5428D4A7967FDF8D5A9646133836B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7E3A4B3699009B2CFAA6E65 /* Pods-ScalePickerCarousel-FontAwesome.swift-Private.xcconfig */;
+			baseConfigurationReference = 82BD1F612DD3BBA3662A56F4AD28A282 /* Pods-ScalePickerCarousel.release.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-ScalePickerCarousel-FontAwesome.swift/Pods-ScalePickerCarousel-FontAwesome.swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-ScalePickerCarousel-FontAwesome.swift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-ScalePickerCarousel-FontAwesome.swift/Pods-ScalePickerCarousel-FontAwesome.swift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = FontAwesome_swift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		BA943793660A1EE61B8419D8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABD68644469F12ABD0128337 /* Pods-ScalePickerCarousel.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-ScalePickerCarousel/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ScalePickerCarousel/Pods-ScalePickerCarousel.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_ScalePickerCarousel;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C98EB1536D59732012EF3F8B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7E3A4B3699009B2CFAA6E65 /* Pods-ScalePickerCarousel-FontAwesome.swift-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-ScalePickerCarousel-FontAwesome.swift/Pods-ScalePickerCarousel-FontAwesome.swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-ScalePickerCarousel-FontAwesome.swift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-ScalePickerCarousel-FontAwesome.swift/Pods-ScalePickerCarousel-FontAwesome.swift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = FontAwesome_swift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -533,10 +608,11 @@
 			};
 			name = Release;
 		};
-		CE00527C43DE6DA6F77EC083 /* Debug */ = {
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -550,11 +626,14 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
@@ -567,64 +646,184 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		F70F8FD9697CADE815E91BAF /* Release */ = {
+		A5CDEF4896424916421E96580C2BC61F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7E3A4B3699009B2CFAA6E65 /* Pods-ScalePickerCarousel-FontAwesome.swift-Private.xcconfig */;
+			baseConfigurationReference = E751643369496E4CD4EDF66244DD1BD9 /* FontAwesome.swift.xcconfig */;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-ScalePickerCarousel";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FontAwesome.swift";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/FontAwesome.swift/ResourceBundle-FontAwesome.swift-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = FontAwesome.swift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		C65D1F2549338A789B1CA10A60023974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00F6450B49DE75605C5266B9C2D47523 /* Pods-ScalePickerCarousel.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ScalePickerCarousel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ScalePickerCarousel/Pods-ScalePickerCarousel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ScalePickerCarousel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E085E009EF2C46B8ECB4584C84E74C02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ABC2843B2FCA0CD14C7466000EB37CA /* Pods-ScalePickerCarouselTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ScalePickerCarouselTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ScalePickerCarouselTests/Pods-ScalePickerCarouselTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ScalePickerCarouselTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E1AD896B33F2EB58BAD19D8D277141A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B70E9BE32AC0A03417B058FD3BE648A5 /* Pods-ScalePickerCarouselTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ScalePickerCarouselTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ScalePickerCarouselTests/Pods-ScalePickerCarouselTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ScalePickerCarouselTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		39A12A717C618972C2CA67DE /* Build configuration list for PBXNativeTarget "Pods-ScalePickerCarousel" */ = {
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BA943793660A1EE61B8419D8 /* Debug */,
-				7B7C08B133304D50F13A7F43 /* Release */,
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		40F8C3A19701CE07C312585F /* Build configuration list for PBXNativeTarget "Pods-ScalePickerCarousel-FontAwesome.swift" */ = {
+		A180FAC878D3C08460CA3E8D5F379003 /* Build configuration list for PBXNativeTarget "Pods-ScalePickerCarouselTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B6443461E0AEAC37871644CE /* Debug */,
-				C98EB1536D59732012EF3F8B /* Release */,
+				E085E009EF2C46B8ECB4584C84E74C02 /* Debug */,
+				E1AD896B33F2EB58BAD19D8D277141A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F7138087DE9D1D43B3636B67 /* Build configuration list for PBXProject "Pods" */ = {
+		C7B375BC6286A9E3DE2F46F4B52CBA3F /* Build configuration list for PBXNativeTarget "FontAwesome.swift-FontAwesome.swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE00527C43DE6DA6F77EC083 /* Debug */,
-				B47F98C1C90DFCCB4DE8A309 /* Release */,
+				A5CDEF4896424916421E96580C2BC61F /* Debug */,
+				0A377CDE9B27653F98E0692049B8DE19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FA56887DB9893ABBF78B773B /* Build configuration list for PBXNativeTarget "Pods-ScalePickerCarousel-FontAwesome.swift-FontAwesome.swift" */ = {
+		E5292F3ABD1D499B57A66CDB77C7B780 /* Build configuration list for PBXNativeTarget "Pods-ScalePickerCarousel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				73C4806DAB21DEABCEBE5385 /* Debug */,
-				F70F8FD9697CADE815E91BAF /* Release */,
+				C65D1F2549338A789B1CA10A60023974 /* Debug */,
+				91B5428D4A7967FDF8D5A9646133836B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F38BD62EC04F59923F9724EE5CEF993B /* Build configuration list for PBXNativeTarget "FontAwesome.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64147827621B355A1E4C20FC21082C86 /* Debug */,
+				408DB3413398B29EE089C0212414F9F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2F8093F6813CDDDF6733DD54 /* Project object */;
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 }

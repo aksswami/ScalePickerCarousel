@@ -14,7 +14,8 @@
 		099E65EF1B4BD30300FC1440 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 099E65EE1B4BD30300FC1440 /* Images.xcassets */; };
 		099E65F21B4BD30300FC1440 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 099E65F01B4BD30300FC1440 /* LaunchScreen.xib */; };
 		099E65FE1B4BD30300FC1440 /* ScalePickerCarouselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099E65FD1B4BD30300FC1440 /* ScalePickerCarouselTests.swift */; };
-		7CF40C8C75DC18336958D0AF /* Pods_ScalePickerCarousel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 785F206EEE43A8714A19DD2C /* Pods_ScalePickerCarousel.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		705DA549A580D673B20EF2FE /* Pods_ScalePickerCarousel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE8DC8C551998D9412673D7 /* Pods_ScalePickerCarousel.framework */; };
+		B90D5E2ABD2E8AE494E03077 /* Pods_ScalePickerCarouselTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DC3DCEE38EC0C261AEA22CF /* Pods_ScalePickerCarouselTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,9 +42,12 @@
 		099E65FC1B4BD30300FC1440 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		099E65FD1B4BD30300FC1440 /* ScalePickerCarouselTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScalePickerCarouselTests.swift; sourceTree = "<group>"; };
 		099E66071B4BD52900FC1440 /* ScalePickerCarousel-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScalePickerCarousel-Bridging-Header.h"; sourceTree = "<group>"; };
-		715AE25A6593528935CA6405 /* Pods-ScalePickerCarousel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScalePickerCarousel.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScalePickerCarousel/Pods-ScalePickerCarousel.release.xcconfig"; sourceTree = "<group>"; };
-		785F206EEE43A8714A19DD2C /* Pods_ScalePickerCarousel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScalePickerCarousel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD90EFEBA84A8BE24C504D8B /* Pods-ScalePickerCarousel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScalePickerCarousel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScalePickerCarousel/Pods-ScalePickerCarousel.debug.xcconfig"; sourceTree = "<group>"; };
+		0DC3DCEE38EC0C261AEA22CF /* Pods_ScalePickerCarouselTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScalePickerCarouselTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12C0F074FE87BA99BEB766FC /* Pods-ScalePickerCarouselTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScalePickerCarouselTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScalePickerCarouselTests/Pods-ScalePickerCarouselTests.release.xcconfig"; sourceTree = "<group>"; };
+		7D7ADEAA11A98F2BA430698A /* Pods-ScalePickerCarouselTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScalePickerCarouselTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScalePickerCarouselTests/Pods-ScalePickerCarouselTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC25AB78E39601C879915BB0 /* Pods-ScalePickerCarousel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScalePickerCarousel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScalePickerCarousel/Pods-ScalePickerCarousel.debug.xcconfig"; sourceTree = "<group>"; };
+		CAE8DC8C551998D9412673D7 /* Pods_ScalePickerCarousel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScalePickerCarousel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5ED86DF12F27767CA46DF12 /* Pods-ScalePickerCarousel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScalePickerCarousel.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScalePickerCarousel/Pods-ScalePickerCarousel.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CF40C8C75DC18336958D0AF /* Pods_ScalePickerCarousel.framework in Frameworks */,
+				705DA549A580D673B20EF2FE /* Pods_ScalePickerCarousel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B90D5E2ABD2E8AE494E03077 /* Pods_ScalePickerCarouselTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,8 +85,8 @@
 				099E65E41B4BD30300FC1440 /* ScalePickerCarousel */,
 				099E65FA1B4BD30300FC1440 /* ScalePickerCarouselTests */,
 				099E65E31B4BD30300FC1440 /* Products */,
-				E61151DD25E93A72E10FC645 /* Pods */,
-				41E4B20531B680F2452A1183 /* Frameworks */,
+				AC8A2611F3FDCB5C5DE0BD2A /* Pods */,
+				49E5EB93F3A28C6E2D6DA4AF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,19 +139,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		41E4B20531B680F2452A1183 /* Frameworks */ = {
+		49E5EB93F3A28C6E2D6DA4AF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				785F206EEE43A8714A19DD2C /* Pods_ScalePickerCarousel.framework */,
+				CAE8DC8C551998D9412673D7 /* Pods_ScalePickerCarousel.framework */,
+				0DC3DCEE38EC0C261AEA22CF /* Pods_ScalePickerCarouselTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E61151DD25E93A72E10FC645 /* Pods */ = {
+		AC8A2611F3FDCB5C5DE0BD2A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FD90EFEBA84A8BE24C504D8B /* Pods-ScalePickerCarousel.debug.xcconfig */,
-				715AE25A6593528935CA6405 /* Pods-ScalePickerCarousel.release.xcconfig */,
+				BC25AB78E39601C879915BB0 /* Pods-ScalePickerCarousel.debug.xcconfig */,
+				F5ED86DF12F27767CA46DF12 /* Pods-ScalePickerCarousel.release.xcconfig */,
+				7D7ADEAA11A98F2BA430698A /* Pods-ScalePickerCarouselTests.debug.xcconfig */,
+				12C0F074FE87BA99BEB766FC /* Pods-ScalePickerCarouselTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -158,12 +166,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 099E66011B4BD30300FC1440 /* Build configuration list for PBXNativeTarget "ScalePickerCarousel" */;
 			buildPhases = (
-				0F7848BA90D3A88E95FDEE86 /* Check Pods Manifest.lock */,
+				5FE4C2F966BBE278480D4D7A /* [CP] Check Pods Manifest.lock */,
 				099E65DE1B4BD30300FC1440 /* Sources */,
 				099E65DF1B4BD30300FC1440 /* Frameworks */,
 				099E65E01B4BD30300FC1440 /* Resources */,
-				129F9315BC1B40C10807CEE5 /* Copy Pods Resources */,
-				DE599BD2C3E43F44AB80DED4 /* Embed Pods Frameworks */,
+				DBC88717C13DD13A7698868E /* [CP] Embed Pods Frameworks */,
+				0DBF76BAB097AD45DF22EC6B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -178,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 099E66041B4BD30300FC1440 /* Build configuration list for PBXNativeTarget "ScalePickerCarouselTests" */;
 			buildPhases = (
+				1445E298F696EA0A99B80870 /* [CP] Check Pods Manifest.lock */,
 				099E65F31B4BD30300FC1440 /* Sources */,
 				099E65F41B4BD30300FC1440 /* Frameworks */,
 				099E65F51B4BD30300FC1440 /* Resources */,
+				F59C997066C09DF5C3BCA00E /* [CP] Embed Pods Frameworks */,
+				3FCBEF84E15E5B806000BCBE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -203,9 +214,11 @@
 				TargetAttributes = {
 					099E65E11B4BD30300FC1440 = {
 						CreatedOnToolsVersion = 6.3.2;
+						LastSwiftMigration = 0820;
 					};
 					099E65F61B4BD30300FC1440 = {
 						CreatedOnToolsVersion = 6.3.2;
+						LastSwiftMigration = 0820;
 						TestTargetID = 099E65E11B4BD30300FC1440;
 					};
 				};
@@ -250,29 +263,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0F7848BA90D3A88E95FDEE86 /* Check Pods Manifest.lock */ = {
+		0DBF76BAB097AD45DF22EC6B /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		129F9315BC1B40C10807CEE5 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,19 +278,79 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScalePickerCarousel/Pods-ScalePickerCarousel-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DE599BD2C3E43F44AB80DED4 /* Embed Pods Frameworks */ = {
+		1445E298F696EA0A99B80870 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3FCBEF84E15E5B806000BCBE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScalePickerCarouselTests/Pods-ScalePickerCarouselTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FE4C2F966BBE278480D4D7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DBC88717C13DD13A7698868E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScalePickerCarousel/Pods-ScalePickerCarousel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F59C997066C09DF5C3BCA00E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScalePickerCarouselTests/Pods-ScalePickerCarouselTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -429,30 +487,33 @@
 		};
 		099E66021B4BD30300FC1440 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD90EFEBA84A8BE24C504D8B /* Pods-ScalePickerCarousel.debug.xcconfig */;
+			baseConfigurationReference = BC25AB78E39601C879915BB0 /* Pods-ScalePickerCarousel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ScalePickerCarousel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "ScalePickerCarousel/ScalePickerCarousel-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		099E66031B4BD30300FC1440 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 715AE25A6593528935CA6405 /* Pods-ScalePickerCarousel.release.xcconfig */;
+			baseConfigurationReference = F5ED86DF12F27767CA46DF12 /* Pods-ScalePickerCarousel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ScalePickerCarousel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "ScalePickerCarousel/ScalePickerCarousel-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		099E66051B4BD30300FC1440 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D7ADEAA11A98F2BA430698A /* Pods-ScalePickerCarouselTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -466,12 +527,14 @@
 				INFOPLIST_FILE = ScalePickerCarouselTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScalePickerCarousel.app/ScalePickerCarousel";
 			};
 			name = Debug;
 		};
 		099E66061B4BD30300FC1440 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12C0F074FE87BA99BEB766FC /* Pods-ScalePickerCarouselTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -481,6 +544,7 @@
 				INFOPLIST_FILE = ScalePickerCarouselTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScalePickerCarousel.app/ScalePickerCarousel";
 			};
 			name = Release;

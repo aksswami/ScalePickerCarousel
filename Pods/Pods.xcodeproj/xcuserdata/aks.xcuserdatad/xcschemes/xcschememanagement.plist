@@ -4,12 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-ScalePickerCarousel-FontAwesome.swift-FontAwesome.swift.xcscheme</key>
+		<key>FontAwesome.swift-FontAwesome.swift.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-ScalePickerCarousel-FontAwesome.swift.xcscheme</key>
+		<key>FontAwesome.swift.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -19,20 +19,30 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-ScalePickerCarouselTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>304E53BE727DA45672070266</key>
+		<key>1FE2578FF0805299395CF2A0206BB671</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>78C5FD0827474E3622641AA2</key>
+		<key>83FCBA0EE2A0BB6C45A94AD90110C44F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8946CF7DFDDB9986941CAAEE</key>
+		<key>EF4F067C2D0E135B80299B089E168BDA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F7A9AD86BFFC5F020974DF9BD24ABB0A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
